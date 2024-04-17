@@ -11,6 +11,9 @@
 		8E9A3FBE2BCD0221005E4F45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A3FBD2BCD0221005E4F45 /* ContentView.swift */; };
 		8E9A3FC02BCD0223005E4F45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9A3FBF2BCD0223005E4F45 /* Assets.xcassets */; };
 		8E9A3FC32BCD0223005E4F45 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9A3FC22BCD0223005E4F45 /* Preview Assets.xcassets */; };
+		8E9A40062BCFA0CB005E4F45 /* BaseVStackModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A40052BCFA0CB005E4F45 /* BaseVStackModifier.swift */; };
+		8E9A400A2BCFA23F005E4F45 /* OXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A40092BCFA23F005E4F45 /* OXView.swift */; };
+		8E9A400E2BCFA66E005E4F45 /* PointButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A400D2BCFA66E005E4F45 /* PointButtonModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,9 @@
 		8E9A3FBD2BCD0221005E4F45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8E9A3FBF2BCD0223005E4F45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E9A3FC22BCD0223005E4F45 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E9A40052BCFA0CB005E4F45 /* BaseVStackModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVStackModifier.swift; sourceTree = "<group>"; };
+		8E9A40092BCFA23F005E4F45 /* OXView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OXView.swift; sourceTree = "<group>"; };
+		8E9A400D2BCFA66E005E4F45 /* PointButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointButtonModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +59,11 @@
 			children = (
 				8E9A3FBB2BCD0221005E4F45 /* Sesac_PracticeSwiftUIApp.swift */,
 				8E9A3FBD2BCD0221005E4F45 /* ContentView.swift */,
+				8E9A40092BCFA23F005E4F45 /* OXView.swift */,
 				8E9A3FBF2BCD0223005E4F45 /* Assets.xcassets */,
 				8E9A3FC12BCD0223005E4F45 /* Preview Content */,
+				8E9A40052BCFA0CB005E4F45 /* BaseVStackModifier.swift */,
+				8E9A400D2BCFA66E005E4F45 /* PointButtonModifier.swift */,
 			);
 			path = Sesac_PracticeSwiftUI;
 			sourceTree = "<group>";
@@ -138,7 +147,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E9A3FBE2BCD0221005E4F45 /* ContentView.swift in Sources */,
+				8E9A400A2BCFA23F005E4F45 /* OXView.swift in Sources */,
+				8E9A40062BCFA0CB005E4F45 /* BaseVStackModifier.swift in Sources */,
 				8E9A3FBC2BCD0221005E4F45 /* Sesac_PracticeSwiftUIApp.swift in Sources */,
+				8E9A400E2BCFA66E005E4F45 /* PointButtonModifier.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
