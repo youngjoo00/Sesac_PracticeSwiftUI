@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E887CD52BD3718D00E95008 /* MyRandomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E887CD42BD3718D00E95008 /* MyRandomImageView.swift */; };
 		8E9A3FBC2BCD0221005E4F45 /* Sesac_PracticeSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A3FBB2BCD0221005E4F45 /* Sesac_PracticeSwiftUIApp.swift */; };
 		8E9A3FBE2BCD0221005E4F45 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A3FBD2BCD0221005E4F45 /* ContentView.swift */; };
 		8E9A3FC02BCD0223005E4F45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9A3FBF2BCD0223005E4F45 /* Assets.xcassets */; };
@@ -14,9 +15,12 @@
 		8E9A40062BCFA0CB005E4F45 /* BaseVStackModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A40052BCFA0CB005E4F45 /* BaseVStackModifier.swift */; };
 		8E9A400A2BCFA23F005E4F45 /* OXView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A40092BCFA23F005E4F45 /* OXView.swift */; };
 		8E9A400E2BCFA66E005E4F45 /* PointButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9A400D2BCFA66E005E4F45 /* PointButtonModifier.swift */; };
+		8ED8B7452BD57274009B4387 /* DetailImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8B7442BD57274009B4387 /* DetailImageView.swift */; };
+		8ED8B7482BD57F12009B4387 /* CategoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ED8B7472BD57F12009B4387 /* CategoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E887CD42BD3718D00E95008 /* MyRandomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRandomImageView.swift; sourceTree = "<group>"; };
 		8E9A3FB82BCD0221005E4F45 /* Sesac_PracticeSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sesac_PracticeSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9A3FBB2BCD0221005E4F45 /* Sesac_PracticeSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sesac_PracticeSwiftUIApp.swift; sourceTree = "<group>"; };
 		8E9A3FBD2BCD0221005E4F45 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -25,6 +29,8 @@
 		8E9A40052BCFA0CB005E4F45 /* BaseVStackModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseVStackModifier.swift; sourceTree = "<group>"; };
 		8E9A40092BCFA23F005E4F45 /* OXView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OXView.swift; sourceTree = "<group>"; };
 		8E9A400D2BCFA66E005E4F45 /* PointButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointButtonModifier.swift; sourceTree = "<group>"; };
+		8ED8B7442BD57274009B4387 /* DetailImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailImageView.swift; sourceTree = "<group>"; };
+		8ED8B7472BD57F12009B4387 /* CategoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,10 +44,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E887CCE2BD370CB00E95008 /* RandomImage */ = {
+			isa = PBXGroup;
+			children = (
+				8E887CD42BD3718D00E95008 /* MyRandomImageView.swift */,
+				8ED8B7442BD57274009B4387 /* DetailImageView.swift */,
+			);
+			path = RandomImage;
+			sourceTree = "<group>";
+		};
+		8E887CCF2BD370D800E95008 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				8E9A3FBD2BCD0221005E4F45 /* ContentView.swift */,
+				8E9A40092BCFA23F005E4F45 /* OXView.swift */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
 		8E9A3FAF2BCD0221005E4F45 = {
 			isa = PBXGroup;
 			children = (
 				8E9A3FBA2BCD0221005E4F45 /* Sesac_PracticeSwiftUI */,
+				8E9A40052BCFA0CB005E4F45 /* BaseVStackModifier.swift */,
+				8E9A400D2BCFA66E005E4F45 /* PointButtonModifier.swift */,
 				8E9A3FB92BCD0221005E4F45 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,12 +84,11 @@
 			isa = PBXGroup;
 			children = (
 				8E9A3FBB2BCD0221005E4F45 /* Sesac_PracticeSwiftUIApp.swift */,
-				8E9A3FBD2BCD0221005E4F45 /* ContentView.swift */,
-				8E9A40092BCFA23F005E4F45 /* OXView.swift */,
+				8E887CCF2BD370D800E95008 /* other */,
+				8E887CCE2BD370CB00E95008 /* RandomImage */,
+				8ED8B7462BD57EF7009B4387 /* Category */,
 				8E9A3FBF2BCD0223005E4F45 /* Assets.xcassets */,
 				8E9A3FC12BCD0223005E4F45 /* Preview Content */,
-				8E9A40052BCFA0CB005E4F45 /* BaseVStackModifier.swift */,
-				8E9A400D2BCFA66E005E4F45 /* PointButtonModifier.swift */,
 			);
 			path = Sesac_PracticeSwiftUI;
 			sourceTree = "<group>";
@@ -74,6 +99,14 @@
 				8E9A3FC22BCD0223005E4F45 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8ED8B7462BD57EF7009B4387 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				8ED8B7472BD57F12009B4387 /* CategoryView.swift */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +184,9 @@
 				8E9A40062BCFA0CB005E4F45 /* BaseVStackModifier.swift in Sources */,
 				8E9A3FBC2BCD0221005E4F45 /* Sesac_PracticeSwiftUIApp.swift in Sources */,
 				8E9A400E2BCFA66E005E4F45 /* PointButtonModifier.swift in Sources */,
+				8E887CD52BD3718D00E95008 /* MyRandomImageView.swift in Sources */,
+				8ED8B7452BD57274009B4387 /* DetailImageView.swift in Sources */,
+				8ED8B7482BD57F12009B4387 /* CategoryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ struct BaseVStackModifier: ViewModifier {
     
     func body(content: Content) -> some View {
         content
-            .foregroundStyle(.white)
+            .foregroundStyle(.black)
             .padding(.horizontal, 16)
     }
     

@@ -11,7 +11,7 @@ import SwiftUI
 struct Sesac_PracticeSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MyRandomImageView()
         }
     }
 }
